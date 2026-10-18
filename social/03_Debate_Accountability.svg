@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><linearGradient id="bg" x2="0.7" y2="1"><stop stop-color="#0A2035"/><stop offset="1" stop-color="#10334A"/></linearGradient><radialGradient id="g"><stop stop-color="#f3b993" stop-opacity=".23"/><stop offset="1" stop-color="#f3b993" stop-opacity="0"/></radialGradient></defs>
+<rect width="1080" height="1350" fill="url(#bg)"/><circle cx="855" cy="330" r="520" fill="url(#g)"/>
+<text x="78" y="100" fill="#f4fcff" font-family="Arial,sans-serif" font-size="40" font-weight="bold" letter-spacing="3">FRANCE <tspan fill="#f3b993">2036</tspan></text>
+<text x="78" y="145" fill="#9FC5D1" font-family="Arial,sans-serif" font-size="22">FUTURE TECHNOLOGY · STUDENT CAMPAIGN</text>
+<rect x="78" y="190" width="924" height="3" fill="#f3b993" opacity=".7"/>
+<text x="78" y="265" fill="#f3b993" font-family="Arial,sans-serif" font-size="25" font-weight="bold" letter-spacing="4">03 / THE ETHICAL DEBATE</text>
+<text x="78" y="336" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="58" font-weight="bold">YOUR AI PAID €35.</text>
+<text x="78" y="387" fill="#b1cdd6" font-family="Arial,sans-serif" font-size="29">WHO IS RESPONSIBLE?</text><rect x="78" y="466" width="924" height="139" rx="20" fill="#ffddd4"/>
+<text x="115" y="528" fill="#9d3c30" font-size="39" font-family="Arial,sans-serif" font-weight="bold">UNVERIFIED MERCHANT</text>
+<text x="115" y="573" fill="#713c35" font-size="29" font-family="Arial,sans-serif">Payment completed · No service delivered</text>
+<g font-family="Arial,sans-serif" font-size="35" font-weight="bold">
+<rect x="78" y="666" width="441" height="142" rx="17" fill="#e9f5f7"/><rect x="561" y="666" width="441" height="142" rx="17" fill="#e9f5f7"/>
+<rect x="78" y="827" width="441" height="142" rx="17" fill="#e9f5f7"/><rect x="561" y="827" width="441" height="142" rx="17" fill="#e9f5f7"/>
+<text x="117" y="750" fill="#0c3043">THE USER?</text><text x="599" y="750" fill="#0c3043">THE AI PROVIDER?</text>
+<text x="117" y="911" fill="#0c3043">THE WALLET?</text><text x="599" y="911" fill="#0c3043">THE MERCHANT?</text>
+</g>
+<rect x="78" y="1003" width="924" height="132" rx="19" fill="#55ddd4"/>
+<text x="123" y="1063" font-family="Arial,sans-serif" font-size="43" font-weight="bold" fill="#072c3c">OR SHARED RESPONSIBILITY?</text>
+<text x="123" y="1102" font-family="Arial,sans-serif" font-size="26" fill="#072c3c">Debate, vote, and explain your choice.</text><rect x="78" y="1224" width="924" height="1" fill="#446377"/>
+<text x="78" y="1264" fill="#a9c3cf" font-family="Arial,sans-serif" font-size="22">YOUR AI CAN SPEND YOUR MONEY. BUT WHO IS IN CONTROL?</text>
+<text x="78" y="1304" fill="#688b9c" font-family="Arial,sans-serif" font-size="18">Hypothetical ECE project · Not an official government communication</text></svg>
