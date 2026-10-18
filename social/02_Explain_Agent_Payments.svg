@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><linearGradient id="bg" x2="0.7" y2="1"><stop stop-color="#0A2035"/><stop offset="1" stop-color="#10334A"/></linearGradient><radialGradient id="g"><stop stop-color="#55ddd4" stop-opacity=".23"/><stop offset="1" stop-color="#55ddd4" stop-opacity="0"/></radialGradient></defs>
+<rect width="1080" height="1350" fill="url(#bg)"/><circle cx="855" cy="330" r="520" fill="url(#g)"/>
+<text x="78" y="100" fill="#f4fcff" font-family="Arial,sans-serif" font-size="40" font-weight="bold" letter-spacing="3">FRANCE <tspan fill="#55ddd4">2036</tspan></text>
+<text x="78" y="145" fill="#9FC5D1" font-family="Arial,sans-serif" font-size="22">FUTURE TECHNOLOGY · STUDENT CAMPAIGN</text>
+<rect x="78" y="190" width="924" height="3" fill="#55ddd4" opacity=".7"/>
+<text x="78" y="265" fill="#55ddd4" font-family="Arial,sans-serif" font-size="25" font-weight="bold" letter-spacing="4">02 / THE EXPLAINER</text>
+<text x="78" y="336" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="58" font-weight="bold">HOW CAN AN AI</text>
+<text x="78" y="387" fill="#b1cdd6" font-family="Arial,sans-serif" font-size="29">PAY FOR AN API?</text><g font-family="Arial,sans-serif">
+<rect x="78" y="463" width="924" height="165" rx="23" fill="#f6fbfd"/><text x="117" y="533" fill="#0a3249" font-size="39" font-weight="bold">1 · REQUEST A DIGITAL RESOURCE</text><text x="117" y="584" fill="#486879" font-size="29">An agent needs data for an approved task</text>
+<text x="516" y="674" text-anchor="middle" fill="#55ddd4" font-size="65">↓</text>
+<rect x="78" y="696" width="924" height="165" rx="23" fill="#173f56" stroke="#4ec9c9" stroke-width="3"/><text x="117" y="766" fill="#ffffff" font-size="39" font-weight="bold">2 · PAYMENT REQUIRED (HTTP 402)</text><text x="117" y="817" fill="#bed8df" font-size="29">x402 is a present-day precursor (2025)</text>
+<text x="516" y="907" text-anchor="middle" fill="#55ddd4" font-size="65">↓</text>
+<rect x="78" y="929" width="924" height="165" rx="23" fill="#f6fbfd"/><text x="117" y="999" fill="#0a3249" font-size="37" font-weight="bold">3 · WALLET POLICY CHECKS</text><text x="117" y="1050" fill="#486879" font-size="29">Budget • consent • seller verification</text>
+<text x="78" y="1164" fill="#55ddd4" font-size="27" font-weight="bold">SAFE SMALL PAYMENT OR HUMAN APPROVAL</text>
+</g><rect x="78" y="1224" width="924" height="1" fill="#446377"/>
+<text x="78" y="1264" fill="#a9c3cf" font-family="Arial,sans-serif" font-size="22">YOUR AI CAN SPEND YOUR MONEY. BUT WHO IS IN CONTROL?</text>
+<text x="78" y="1304" fill="#688b9c" font-family="Arial,sans-serif" font-size="18">Hypothetical ECE project · Not an official government communication</text></svg>
