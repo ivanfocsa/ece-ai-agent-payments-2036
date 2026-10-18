@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b2338">
+<meta name="description" content="France 2036: a fictional classroom campaign about AI agents that can spend money. No real payments.">
+<title>France 2036 | Who controls your AI wallet?</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:#f2fbff;background:#081725;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}button,input{font:inherit}button{cursor:pointer}
+a{color:inherit}header,main,footer{max-width:1140px;margin:auto;padding:0 26px}
+header{display:flex;justify-content:space-between;align-items:center;padding-top:30px;padding-bottom:30px;gap:12px}
+.brand{font-weight:900;letter-spacing:.09em}.brand span{color:#40d6d2}nav{display:flex;gap:22px;color:#a9c7d2;font-size:.86rem}
+.pill{padding:8px 13px;border:1px solid #275166;border-radius:30px;font-size:.72rem;color:#7ddad8}
+.hero{padding:82px 0 80px;display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center}
+.eyebrow{font-size:.73rem;letter-spacing:.22em;color:#45d7d0;font-weight:800}
+h1{font-size:clamp(2.7rem,6vw,5.9rem);line-height:.98;letter-spacing:-.055em;margin:24px 0}
+h1 em,h2 em{font-style:normal;color:#47d4cf}.lead{color:#c0d3dc;line-height:1.7;font-size:1.13rem;max-width:580px}
+.action,.primary{display:inline-block;border:0;color:#07202b;text-decoration:none;padding:16px 20px;border-radius:6px;font-weight:850;background:#42d7ce}
+.phone{background:linear-gradient(150deg,#12364e,#0b2336);border:1px solid #356071;box-shadow:0 26px 70px #0008;border-radius:28px;max-width:355px;padding:31px 26px;margin:auto;transform:rotate(3deg)}
+.phone small,.subtle{color:#9dc3d2}.amount{font-size:4rem;font-weight:850;letter-spacing:-.06em;margin:20px 0 5px}
+.alert{background:#3e262c;border:1px solid #be6b66;color:#ffe0dc;padding:15px;border-radius:9px;margin-top:18px}
+section.block{padding:76px 0;border-top:1px solid #244459}
+h2{font-size:clamp(2.1rem,4vw,3.5rem);letter-spacing:-.04em;line-height:1.06;margin:16px 0 30px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.card{padding:23px;background:#102b3f;border:1px solid #244c60;border-radius:13px}
+.card strong{color:#67e2d8}.card p{line-height:1.6;color:#bfd2dc}
+.card h3{margin:14px 0 8px}
+.demo{display:grid;grid-template-columns:1fr 1fr;gap:18px}.balance{font-size:3.4rem;font-weight:900;margin:13px 0 20px}
+.controls{display:flex;align-items:center;gap:12px;justify-content:space-between;margin:15px 0;color:#e1f0f4}
+.controls input[type=number]{width:85px;padding:11px;border:1px solid #4c7181;border-radius:8px;color:#fff;background:#16394d}
+.secondary{background:#1d475a;border:1px solid #41758a;color:#f2fbff;padding:13px 16px;border-radius:8px}
+button:hover,a.action:hover{filter:brightness(1.12)}button:focus-visible,a:focus-visible{outline:3px solid #ffe177;outline-offset:3px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.risk{background:#dd8a74;color:#142631}.choice{flex:1;min-width:115px}
+#result,#vote-result,#ethics-result{margin-top:20px;padding:15px 18px;background:#1a3a4c;color:#e5fafb;border-radius:9px;line-height:1.6;min-height:58px}
+.note{font-size:.85rem;color:#9ebdc9;line-height:1.6}
+.policy{counter-reset:item}.policy .card strong:before{counter-increment:item;content:counter(item,decimal-leading-zero)" / "}
+footer{border-top:1px solid #244459;margin-top:40px;padding-top:20px;padding-bottom:35px;color:#9cb9c7;font-size:.85rem}
+@media(max-width:820px){.hero,.demo{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}nav{display:none}.phone{transform:none}.hero{padding-top:36px}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.actions>*{width:100%}header .pill{display:none}}
+</style>
+</head>
+<body>
+<header><div class="brand">FRANCE <span>2036</span></div><nav><a href="#technology">Technology</a><a href="#wallet">Live challenge</a><a href="#ethics">Ethical battle</a></nav><span class="pill">ACADEMIC SIMULATION</span></header>
+<main>
+<section class="hero">
+<div><p class="eyebrow">A POSSIBLE FUTURE · FRANCE 2036–2040</p>
+<h1>YOUR AI CAN<br>SPEND YOUR MONEY.<br><em>WHO IS IN CONTROL?</em></h1>
+<p class="lead">An AI assistant could buy data, APIs and other digital services for you. Convenience is valuable. But spending money also needs limits, consent and accountability.</p>
+<a class="action" href="#wallet">TAKE THE €50 CHALLENGE ↗</a></div>
+<div class="phone"><small>AI AGENT WALLET · DEMO</small><div class="amount">€50.00</div><small>Available budget</small>
+<div class="alert"><strong>€35.00 PAYMENT REQUEST</strong><p>Unknown digital data provider. Is this safe to approve?</p></div>
+<p class="note">All transactions are simulated. This is not a real wallet or government service.</p></div>
+</section>
+<section class="block" id="technology"><p class="eyebrow">01 / THE TECHNOLOGY</p><h2>From today's x402 to <em>tomorrow's agents.</em></h2>
+<div class="grid"><div class="card"><strong>2025–2026 / PRECURSOR</strong><h3>Machine-readable payment requests</h3><p>HTTP 402-based protocols such as x402 can support payments for online resources (Reppel et al., 2025).</p></div>
+<div class="card"><strong>2036 / POSSIBLE FUTURE</strong><h3>Delegated purchasing power</h3><p>AI agents could use permission-scoped wallets and small budgets for approved tasks. This is a hypothetical scenario.</p></div>
+<div class="card"><strong>THE MAIN QUESTION</strong><h3>Speed versus safety</h3><p>How can we keep payments useful without giving a software agent unlimited access to money?</p></div></div></section>
+<section class="block" id="wallet"><p class="eyebrow">02 / AUDIENCE CHALLENGE</p><h2>€50 IN YOUR WALLET.<br><em>€35 TO AN UNKNOWN SELLER.</em></h2>
+<div class="demo">
+<div class="card"><strong>YOUR CONTROL PANEL</strong><p class="subtle">Remaining budget</p><div class="balance" id="balance">€50.00</div>
+<div class="controls"><label for="limit">Automatic spending limit (€)</label><input id="limit" type="number" min="0" max="50" step="0.1" value="1"></div>
+<label class="controls"><span>Human review for unknown sellers</span><input id="review" type="checkbox" checked></label>
+<label class="controls"><span>Verified sellers only for autopay</span><input id="verified" type="checkbox" checked></label>
+<div class="actions"><button class="primary" id="safe">PAY VERIFIED API · €0.10</button><button class="secondary" id="reset">RESET WALLET</button></div></div>
+<div class="card"><strong>UNKNOWN MERCHANT · €35 REQUEST</strong><p>Unverified premium data API. The agent says it could improve your task. No proof of delivery yet.</p>
+<div class="actions"><button class="secondary choice risk" data-action="pay">PAY ANYWAY</button><button class="secondary choice" data-action="ask">ASK USER</button><button class="secondary choice" data-action="reject">REJECT</button></div>
+<div id="result" aria-live="polite">Choose what your AI should do. The result will appear here.</div></div></div>
+<div class="card" style="margin-top:16px"><strong>LIVE AUDIENCE VOTE</strong><h3>Would you let an AI spend €50 without asking?</h3>
+<div class="actions"><button class="secondary" data-vote="yes">YES</button><button class="secondary" data-vote="no">NO</button><button class="secondary" data-vote="depends">DEPENDS</button></div>
+<div id="vote-result" aria-live="polite">Vote and explain why. These buttons record one local selection, not an online poll.</div></div></section>
+<section class="block" id="stakeholders"><p class="eyebrow">03 / WHO IS AFFECTED?</p><h2>The stakeholders <em>have different priorities.</em></h2>
+<div class="grid"><div class="card"><strong>USERS</strong><p>Convenience, consent, privacy, refunds and control.</p></div>
+<div class="card"><strong>AI PROVIDERS</strong><p>Accurate agents, safeguards, transparency and responsibility.</p></div>
+<div class="card"><strong>MERCHANTS</strong><p>Simple transactions, verified service delivery, fair access.</p></div>
+<div class="card"><strong>WALLET PROVIDERS</strong><p>Secure credentials, fraud controls and clear receipts.</p></div>
+<div class="card"><strong>FRENCH AUTHORITIES</strong><p>Consumer protection, financial compliance and innovation.</p></div>
+<div class="card"><strong>SOCIETY</strong><p>Fair access, job changes, trust and responsible automation.</p></div></div></section>
+<section class="block" id="ethics"><p class="eyebrow">04 / ETHICAL BATTLE</p><h2>PROTECTION FIRST <em>OR INNOVATION FIRST?</em></h2>
+<div class="grid"><div class="card"><strong>PROTECTION FIRST</strong><p>High-risk payments should require informed approval, merchant checks and a right to challenge mistakes.</p></div>
+<div class="card"><strong>INNOVATION FIRST</strong><p>Too many approval steps might destroy the advantages of faster, cheaper machine-to-machine services.</p></div>
+<div class="card"><strong>FIND THE BALANCE</strong><p>Small trusted transactions can be automatic; risky purchases should stop for review.</p></div></div>
+<div class="actions"><button class="secondary" data-ethic="protect">VOTE: PROTECTION</button><button class="secondary" data-ethic="innovate">VOTE: INNOVATION</button></div>
+<div id="ethics-result" aria-live="polite">Use utilitarianism, duty-based ethics and individual rights to defend your choice.</div></section>
+<section class="block policy"><p class="eyebrow">05 / A POLICY CHALLENGE FOR FRANCE</p><h2>THREE RULES <em>TO DISCUSS.</em></h2>
+<div class="grid"><div class="card"><strong>PERMISSION BY DESIGN</strong><p>Every wallet needs visible budgets, allowed actions and an emergency stop.</p></div>
+<div class="card"><strong>VERIFIED PAYMENTS</strong><p>Use proportionate merchant checks, risk signals and human approval.</p></div>
+<div class="card"><strong>ACCOUNTABILITY</strong><p>Provide payment explanations, accessible records and clear dispute procedures.</p></div></div>
+<p class="note">These are academic proposals for 2036, not current French laws or official ministry recommendations.</p></section>
+</main>
+<footer>ECE academic campaign · Hypothetical France 2036 scenario · No government affiliation · No payment processing. Sources and references are in the repository.</footer>
+<script>
+(function(){
+"use strict";
+var balance=50,safePaid=false,unknownPaid=false;
+function el(id){return document.getElementById(id);}
+function message(s){el("result").textContent=s;}
+function refresh(){el("balance").textContent="€"+balance.toFixed(2);}
+el("safe").addEventListener("click",function(){
+ var lim=Number(el("limit").value);
+ if(!Number.isFinite(lim)||lim<0||lim>50){message("Please enter a valid limit from €0 to €50.");return;}
+ if(safePaid){message("This verified purchase has already been completed.");return;}
+ if(lim<0.1){message("Even this €0.10 payment requires approval under your limit.");return;}
+ balance=Math.round((balance-.1)*100)/100;safePaid=true;refresh();message("Success: verified €0.10 API purchased inside your permitted limit. A real service would still need delivery verification.");
+});
+el("reset").addEventListener("click",function(){balance=50;safePaid=false;unknownPaid=false;el("limit").value="1";el("review").checked=true;el("verified").checked=true;refresh();message("Wallet reset. What should your agent do with €35?");});
+document.querySelectorAll("[data-action]").forEach(function(b){b.addEventListener("click",function(){
+ var action=b.getAttribute("data-action");
+ if(action==="ask"){message("Payment paused. Human review can confirm the seller and price; no money moves.");return;}
+ if(action==="reject"){message("Payment rejected. Funds are protected, but the agent may need another supplier.");return;}
+ if(unknownPaid){message("The unknown seller has already been paid in this simulation.");return;}
+ if(balance<35){message("Insufficient simulated balance.");return;}
+ var controls=el("review").checked||el("verified").checked||Number(el("limit").value)<35;
+ balance=Math.round((balance-35)*100)/100;unknownPaid=true;refresh();
+ message("€35 sent to an unknown seller. "+(controls?"This override bypassed wallet safeguards. ":"Your settings allowed broad autonomy. ")+"The service may not be delivered. Who should be responsible?");
+});});
+document.querySelectorAll("[data-vote]").forEach(function(b){b.addEventListener("click",function(){el("vote-result").textContent="You chose "+b.getAttribute("data-vote").toUpperCase()+". Tell the class what would change your mind.";});});
+document.querySelectorAll("[data-ethic]").forEach(function(b){b.addEventListener("click",function(){el("ethics-result").textContent=b.getAttribute("data-ethic")==="protect"?"Protection first: how should safe €0.10 payments remain easy?":"Innovation first: who pays the user back if the €35 merchant is fraudulent?";});});
+refresh();
+})();
+</script>
+</body>
+</html>
